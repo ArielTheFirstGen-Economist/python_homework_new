@@ -1,3 +1,4 @@
+pytest -v -x assignment1-test.py
 import assignment1 as a1
 
 def test_hello():
