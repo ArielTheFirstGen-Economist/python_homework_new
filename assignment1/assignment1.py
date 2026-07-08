@@ -4,18 +4,18 @@
 
 ######## task 1 ########
 
-""" def hi():
+def hi():
     return "Hello"
 
 print(hi())
- """
+ 
 ######### task 2 ########
 
-""" def greet(name):
+def greet(name):
     return f"Hello {name}"
 
 print(greet("Ariel"))
- """
+
 ######### task 3 ########
 
 """ def calc(num1, num2, oper = "multiply"):
