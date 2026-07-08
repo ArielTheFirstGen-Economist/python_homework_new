@@ -1,11 +1,10 @@
 # Write your code here.# Write your code here.
-""" pytest -v -x assignment1-test.py # can use just -x, adding -v lists the passing tests """
-
+""" pytest -v -x assignment1-test.py """ # can use just -x, adding -v lists the passing tests
 
 ######## task 1 ########
 
 """ def hi():
-    return "Hello"
+    return "Hello!"
 
 print(hi())
  """
@@ -87,7 +86,7 @@ print(grading_system(16,5,51,9)) """
         result = result + string
     return result
 
-print(repeat("heart break", 20)) """
+print(repeat("Code the Dream || ", 3)) """
 
 ######### task 7 ########
 
@@ -124,11 +123,11 @@ print(student_scores("best", Kali=1.0, Pacey=10.0, Joey=20.0, Rex=30.0, Ashoka=9
             title_words.append(word.capitalize())
     return " ".join(title_words)
 
-print(titleize("the undocumented americans")) """
+print(titleize("First Gen Professional")) """
  
 ######### task 9 ########
 
-def hangman(secret, guess):
+""" def hangman(secret, guess):
     final_answer = ""
     for letter in secret:
         if letter in guess:
@@ -137,7 +136,36 @@ def hangman(secret, guess):
             final_answer += "_"
     return final_answer
 
+print(hangman("alphabet","ab")) """
 
 ######### task 10 ########
 
+""" def pig_latin(text):
+    words = text.split()
+    final_words = []
+
+    for word in words:
+
+        if word[0] in "aeiou":
+            new_word = word + "ay"
+            final_words.append(new_word)
+        else:
+            index_vowel = 0
+            for i, char in enumerate(word):
+                if char in "aeiou":
+                    if char == "u" and i > 0 and word [i-1] == "q":
+                        index_vowel = i + 1
+                    else:
+                        index_vowel = i
+                    break
+            const_word = word[:index_vowel]
+            whole_word = word[:index_vowel:]
+            word_together = whole_word + const_word + "ay"
+
+            final_words.append(word_together)
+
+    return word_together.join(final_words)
+        
+
+print(pig_latin("learning a new skill")) """
 
