@@ -1,0 +1,59 @@
+function: empty_func
+positional parameters:()
+keyword parameters:{}
+return:None
+function: num_func
+positional parameters:(1, 2, 3)
+keyword parameters:{}
+return:True
+function: empty_func
+positional parameters:()
+keyword parameters:{}
+return:None
+function: num_func
+positional parameters:(1, 2, 3)
+keyword parameters:{}
+return:True
+function: empty_func
+positional parameters:()
+keyword parameters:{}
+return:None
+function: num_func
+positional parameters:(1, 2, 3)
+keyword parameters:{}
+return:True
+function: empty_func
+positional parameters:()
+keyword parameters:{}
+return:None
+function: num_func
+positional parameters:(1, 2, 3)
+keyword parameters:{}
+return:True
+function: last_func
+positional parameters:()
+keyword parameters:{'name': 'Mel', 'color': 'red'}
+function: empty_func
+positional parameters:none
+keyword parameters:none
+return:None
+function: num_func
+positional parameters:(1, 2, 3)
+keyword parameters:none
+return:True
+function: last_func
+positional parameters:none
+keyword parameters:{'name': 'Mel', 'color': 'red'}
+return:<function logger_decorator at 0x107712c40>
+function: empty_func
+positional parameters:none
+keyword parameters:none
+return:None
+function: num_func
+positional parameters:(1, 2, 3)
+keyword parameters:none
+return:True
+function: last_func
+positional parameters:none
+keyword parameters:{'name': 'Mel', 'color': 'red'}
+return:<function logger_decorator at 0x102eaec40>
